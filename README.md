@@ -107,4 +107,8 @@ If needed, fine-tune the touch calibration by modifying the TOUCH_FLIP_X, TOUCH_
 
 For much more detailed information and help for the CYD boards see_ https://github.com/witnessmenow/ESP32-Cheap-Yellow-Display.
 
-Also here is a link to the correct CYD_2usb User_Setup for the TFT_espi library for the later version of the CYD https://github.com/witnessmenow/ESP32-Cheap-Yellow-Display/blob/main/DisplayConfig/CYD2USB/User_Setup.h
+Also here is a link to the correct CYD_2usb User_Setup for the TFT_espi library .
+https://github.com/witnessmenow/ESP32-Cheap-Yellow-Display/blob/main/DisplayConfig/CYD2USB/User_Setup.h
+
+And a link if you need the standard User_Setup for the single micro USB Board
+https://github.com/witnessmenow/ESP32-Cheap-Yellow-Display/blob/main/DisplayConfig/User_Setup.h
