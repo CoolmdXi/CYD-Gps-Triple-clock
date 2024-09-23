@@ -1,5 +1,8 @@
 # CYD-Gps-Triple-clock
+
 A ported sketch to use ESP32-2432S028(CYD) showing a GPS clock with Touch Screen.
+Aliexpress https://www.aliexpress.com/item/1005006470918908.html?spm=a2g0o.order_list.order_list_main.5.688d1802hXWt5n
+https://www.amazon.co.uk/DIYmalls-ESP32-2432S028R-Resistive-ESP-WROOM-32-Development/dp/B0CG2WQGP9?ref_=ast_sto_dp
 
 It has been adapted to attach a small cheap GPS module from Aliexpress to be connected via the CN1 connector on the CYD, no soldering required.
 
