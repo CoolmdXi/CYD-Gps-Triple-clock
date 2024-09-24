@@ -69,17 +69,20 @@
 #include <Wire.h>                 
 #include <SPI.h>                  
 
-//TimeChangeRule EDT                         // Local Timezone setup. My zone is EST/EDT.
- // = { "EDT ", Second, Sun, Mar, 2, -240 };  // Set Daylight time here.  UTC-4hrs
-//TimeChangeRule EST                         // For ex: "First Sunday in Nov at 02:00"
- // = { "EST ", First, Sun, Nov, 2, -300 };   // Set Standard time here.  UTC-5hrs
-//TimeChangeRule *tz;                        // pointer to current time change rule
-//Timezone myTZ(EDT, EST);                   // create timezone object with rules above
+//TimeChangeRule CST = {"CST ", Second, Sun, Mar, 2, -300}; 
+//TimeChangeRule CDT = {"CDT ", First, Sun, Nov, 2, -360}; 
+//TimeChangeRule* tz; 
+//Timezone myTZ(CST ,CDT);
+
+//TimeChangeRule EDT = { "EDT ", Second, Sun, Mar, 2, -240 };
+//TimeChangeRule EST= { "EST ", First, Sun, Nov, 2, -300 }; 
+//TimeChangeRule *tz;                        
+//Timezone myTZ(EDT, EST);                   
 
 TimeChangeRule BST = {"BST ", Last, Sun, Mar, 1, 60};        // British Summer Time
 TimeChangeRule GMT = {"GMT ", Last, Sun, Oct, 2, 0};         // Standard Time
-TimeChangeRule* tz; 
-Timezone myTZ(BST ,GMT);
+TimeChangeRule* tz;       // pointer to current time change rule 
+Timezone myTZ(BST ,GMT);  // create timezone object with rules above
 
 // Touchscreen pins
 #define XPT2046_IRQ 36   // T_IRQ  Pins for touch CYD USB and 2USB and CYD 35
