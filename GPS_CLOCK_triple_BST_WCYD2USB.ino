@@ -344,7 +344,7 @@ void updateDualScreen() {
 }
 
 
-// ============ SCREEN 0 (SIGNLE TIME) DISPLAY ROUTINES ========================================
+// ============ SCREEN 0 (SINGLE TIME) DISPLAY ROUTINES ========================================
 
 void timeScreen() {
   tft.fillScreen(TFT_BLACK);                            // start with empty screen
