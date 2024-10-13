@@ -100,7 +100,7 @@ XPT2046_Touchscreen touchscreen(XPT2046_CS, XPT2046_IRQ);
 
 #define BACKLIGHT 21 // TFT_BACKLIGHT
 #define RXD2 22 //RX (UART2) on CYD TX on gps Module
-#define GPS_PPS 27 // On CN1 connector CYD 28
+#define GPS_PPS 27 // On CN1 connector CYD_2USB
 
 #define USING_PPS true           // true if GPS_PPS line connected; false otherwise.
 #define BAUD_RATE 9600          // data rate of GPS module
